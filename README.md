@@ -16,16 +16,16 @@
 - `SPA` SuperApp trigger to open URL in a new tab  ***you need to handle authenticated method from SuperApp**
 5. `iOSDeeplinkUrl`: deeplink url for ios app (for `Native` app)
 6. `androidDeeplinkUrl`: deeplink url for android app (for `Native` app)
-7. `appUrl`: application url (for `SPA` app)
+7. `webUrl`: web app url (for `SPA` app)
 
 ### Icon
 - 64x64 pixel
 - Size below 50kb
 
 ## Publishing (`React-Native or React Library`)
-1. Request personal access token (PAT) for npm authentication `(Azure Artifacs)`
-2. Set up .npmrc `(Azure Artifacs)`
-3. Create CI/CD and publish to Private DevOps SuperApp
+1. Request personal access token (PAT) for npm authentication `(Azure Artifacts)`
+2. Set up .npmrc `(Azure Artifacts)`
+3. Create CI/CD and publish to SuperApp's Azure Artifacts
 4. Request SuperApp to set up the instalation Library
 
 ## For Application Type: `SPA`
