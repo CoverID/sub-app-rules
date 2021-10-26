@@ -12,6 +12,6 @@
 - `React` if the app built as `React Library`, user access the app inside SuperApp
 - `SPA` SuperApp trigger to open URL in a new tab  ***you need to handle authenticated method from SuperApp**
 
-## Sub-App Icon
-- 50x50 pixel
-- 
+## Icon
+- 64x64 pixel
+- Size below 50kb
