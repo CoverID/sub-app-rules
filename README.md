@@ -19,6 +19,7 @@
 7. `webUrl`: web app url (for `SPA` app)
 
 ### Icon
+- PNG
 - 64x64 pixel
 - Size below 50kb
 
