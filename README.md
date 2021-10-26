@@ -11,7 +11,9 @@
 > for `Web` development type
 - `React` if the app built as `React Library`, user access the app inside SuperApp
 - `SPA` SuperApp trigger to open URL in a new tab  ***you need to handle authenticated method from SuperApp**
-5. `appUrl`: application url (optional)
+5. `appStoreId`: application id in App Store (for `Native` app)
+6. `playStoreId`: bundle id in Google Play (for `Native` app)
+7. `appUrl`: application url (for `SPA` app)
 ## Icon
 - 64x64 pixel
 - Size below 50kb
