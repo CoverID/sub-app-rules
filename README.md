@@ -18,7 +18,7 @@
 6. `androidDeeplinkUrl`: deeplink url for android app (for `Native` app)
 7. `webUrl`: web app url (for `SPA` app)
 
-## Publishing (`React-Native or React Library`)
+## Publishing (`React-Native Library or React Library`)
 1. Request personal access token (PAT) for npm authentication `(Azure Artifacts)`
 2. Set up .npmrc `(Azure Artifacts)`
 3. Create CI/CD and publish to SuperApp's Azure Artifacts
