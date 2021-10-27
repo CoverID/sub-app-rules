@@ -1,8 +1,6 @@
 # Sub-App SuperApp
 
 ## Registration
-
-### Data
 1. `applicationId`: e.g. bundle identifier or some unique app id
 2. `applicationName`: Name of the app
 3. `developmentType`: `Mobile` or `Web`
