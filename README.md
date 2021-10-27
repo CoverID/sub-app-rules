@@ -18,11 +18,6 @@
 6. `androidDeeplinkUrl`: deeplink url for android app (for `Native` app)
 7. `webUrl`: web app url (for `SPA` app)
 
-### Icon
-- PNG
-- 64x64 pixel
-- Size below 50kb
-
 ## Publishing (`React-Native or React Library`)
 1. Request personal access token (PAT) for npm authentication `(Azure Artifacts)`
 2. Set up .npmrc `(Azure Artifacts)`
@@ -30,5 +25,5 @@
 4. Request SuperApp to set up the instalation Library
 
 ## For Application Type: `SPA`
-* Web App wil be automatically linked
+* Web App will be automatically linked
 * Mobile App should request SuperApp to set up the instalation link
