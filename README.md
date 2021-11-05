@@ -25,3 +25,5 @@
 ## For Application Type: `SPA`
 * Web App will be automatically linked
 * Mobile App should request SuperApp to set up the instalation link
+
+# [Documentation](/Documentation)
