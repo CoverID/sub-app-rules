@@ -26,4 +26,4 @@
 * Web App will be automatically linked
 * Mobile App should request SuperApp to set up the instalation link
 
-# [Documentation](/Documentation)
+# How to Access JWT Token and Switch Between Sub-App? [Read this Documentation](/Documentation)
