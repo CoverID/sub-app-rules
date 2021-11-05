@@ -66,7 +66,7 @@ const ComponentA = () => {
   const dispatch = useDispatch();
   // get token
   const { app } = useSelector((state: { home: { profile: { res: IProfileUser } } }) => state.home.profile.res);
-  const appList = (app.list || []).filter(item => item.appId !== app.active.appId)
+  const appList = app.list.filter(item => item.appId !== app.active.appId)
 
   return <View>
     {appList.map((app: AppChild, index) => {
@@ -98,7 +98,7 @@ const ComponentA = () => {
   const dispatch = useDispatch();
   const { app } = useSelector((state: { auth: { res: IUserFinalData } }) => state.auth.res);
   //get the list of sub-apps
-  const appList = (app.list || []).filter((f: AppChild) => f.appId !== app.active.appId);
+  const appList = app.list.filter((f: AppChild) => f.appId !== app.active.appId);
   
   return(
     appList.map((app: AppActive) => {
